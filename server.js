@@ -30,8 +30,8 @@ app.get('/ui/style.css', function(req, res){
     res.sendFile(path.join(_dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/nodi.png', function(req, res){
-    res.sendFile(path.join(_dirname, 'ui', 'nodi.png'));
+app.get('/ui/madi.png', function(req, res){
+    res.sendFile(path.join(_dirname, 'ui', 'madi.png'));
     
 });
 
